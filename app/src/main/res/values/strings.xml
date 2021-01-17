@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">finalProject</string>
+    <string name="pass">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">By confirming registering,\nyou accept all the terms of our app.</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Username</string>
+
+    <string-array name="types">
+        <item>fishFood</item>
+        <item>drink</item>
+        <item>normalFood</item>
+        <item>fastfood</item>
+        ></string-array>
+
+
+</resources>

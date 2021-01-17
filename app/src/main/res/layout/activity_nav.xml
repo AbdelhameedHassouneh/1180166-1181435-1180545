@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="428dp"
+        android:layout_height="261dp"
+        android:background="#FFEB3B"
+        android:text="Order"
+        android:textColor="#2B2706"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="-10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="orderOnClickInNav"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="423dp"
+        android:layout_height="266dp"
+        android:background="#4CAF50"
+        android:text="Contact us"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="470dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="426dp"
+        android:layout_height="248dp"
+        android:background="#556BE1"
+        android:text="About us"
+        android:textColor="#0D174A"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="234dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

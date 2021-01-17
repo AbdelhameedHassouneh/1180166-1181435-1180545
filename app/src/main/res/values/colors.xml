@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary2">#FFC107</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent2">#03DAC5</color>
+    <color name="productNameColor">#8A6802</color>
+    <color name="loginColor">#FFFFFF</color>
+    <color name="loginbtn">#fcba03</color>
+    <color name="colorPrimary">#fcba03</color>
+
+    <color name="colorAccent">#000000</color>
+
+
+</resources>

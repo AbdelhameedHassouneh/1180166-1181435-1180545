@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/loginColor"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        tools:layout_editor_absoluteY="190dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="261dp"
+            android:layout_height="186dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/foodlogo"
+
+            />
+        <EditText
+           android:layout_marginTop="20dp"
+            android:id="@+id/loginNameField"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:shadowColor="#FF0000"
+            android:textColor="@color/loginbtn"
+            android:textColorHighlight="#F5F5F5"
+             />
+
+        <EditText android:layout_marginTop="10dp"
+
+            android:id="@+id/loginPasswordField"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/loginbtn"
+             />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/button"
+            android:layout_width="298dp"
+            android:layout_height="34dp"
+
+            android:background="@drawable/plainst"
+            android:text="Login"
+
+
+
+            android:onClick="logInOnClick"
+            />
+
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/button2"
+            android:layout_width="347dp"
+            android:layout_height="60dp"
+            android:text="Still have no account? Register now!"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorAccent"
+            android:textColorHint="#DA5A5A"
+            android:textColorLink="#FFFFFF"
+            android:onClick="toRegisterOnClick"
+
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titlefont"
+        android:text="Login "
+        android:textColor="@color/loginColor"
+        android:textSize="46dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="27dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titlefont"
+        android:text="Use your username and password"
+        android:textColor="@color/loginColor"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="91dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
